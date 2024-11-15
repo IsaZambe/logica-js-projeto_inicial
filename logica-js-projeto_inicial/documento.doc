@@ -1,0 +1,47 @@
+LOGICA DE PROGRAMAÇÃO JS
+
+Jogo do Número secreto
+
+* o jogo escolhe um número, e tentamos acertar com o programa dando dicas.
+
+*usar aspas para passar a mensagem (aspas simples ou dupla -> manter sempre uma padronização)
+
+*sempre colocar ; no final
+
+*guardar info com variáveis:
+    *let (armazena na memória)
+    *numeroSecreto (nome da variável em camelCase)
+
+*prompt (abre uma caixa no browser para digitação)
+
+*condição IF (variável)
+        == (comparação)
+
+*else (caso não seja comparável)
+
+*concatenação
+    ex: template strings
+        usa-se a ` para incluir uma variável com o texto
+        a variável se apresenta da seguinte forma: ${nomeDaVariavel}
+    pode-se usar:
+        'texto' + nomeDaVariavel
+
+*acoplamento (o grau de ligação entre as linhas de código, se mudar em um lado deve-se mudar ao longo de todo código, fica melhor usar variáveis que quando muda um, automaticamente muda tudo no código)
+
+* while (enquanto)
+    fica repetindo até a condição ser true ou até o break;
+
+ * if (tentativas > 1) {
+     alert(`Parabéns! Você descobriu o número secreto (${numeroSecreto}) com ${tentativas} tentativas.`);
+   }
+ else {
+    alert(`Parabéns! Você descobriu o número secreto (${numeroSecreto}) com ${tentativas} tentativa.`);
+     }
+
+     - pode-se ussar um OPERADOR TERNÁRIO para encurtar o código, deixando mais limpo:
+
+        let nomeDaVariavel / nomeDaPalavra = variavelCorrespondente > 1 ? 'comoEscreve' : (caso não seja) 'escreveAssim;
+
+*Math.random(); -> gera um número >= 0 e < 1 com várias casas decimais
+    * 10 pro número ficar >0 e <10 porém continua com casas decimais, se precisar tirar as casas decimais use:
+    parseInt como função para Math.random()
