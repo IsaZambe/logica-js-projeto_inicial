@@ -10,9 +10,9 @@ while (chute != numeroSecreto) {
 
     // se o chute for igual ao numero secreto, ai executa uma mensagem
     if (chute == numeroSecreto) {
-        alert(`Parabéns! Você descobriu o número secreto (${numeroSecreto}) com ${tentativas} tentativa(s).`);
+        //para - não continua
+        break;
         }
-
     //caso o chute não seja igual ao numero secreto, outra coisa será executado.
     else {
         if (numeroSecreto > chute) {
@@ -26,3 +26,13 @@ while (chute != numeroSecreto) {
                   
     }   
 }
+
+let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
+alert(`Parabéns! Você descobriu o número secreto (${numeroSecreto}) com ${tentativas} ${palavraTentativa}.`);
+
+// if (tentativas > 1) {
+//     alert(`Parabéns! Você descobriu o número secreto (${numeroSecreto}) com ${tentativas} tentativas.`);
+//     }
+// else {
+//     alert(`Parabéns! Você descobriu o número secreto (${numeroSecreto}) com ${tentativas} tentativa.`);
+// }
