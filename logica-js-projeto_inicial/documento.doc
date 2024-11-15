@@ -45,3 +45,161 @@ Jogo do Número secreto
 *Math.random(); -> gera um número >= 0 e < 1 com várias casas decimais
     * 10 pro número ficar >0 e <10 porém continua com casas decimais, se precisar tirar as casas decimais use:
     parseInt como função para Math.random()
+
+
+
+
+EXERCÍCIOS 1
+alert('Boas vindas ao  nosso site!'); 
+let nome = Lua;
+let idade = 25;
+let numeroDeVendas = 50;
+let saldoDisponivel = 1000;
+alert('Erro! Preencha todos os campos");
+let mensagemDeErro = 'Erro! Preencha todos os campos';
+alert(mensagemDeErro);
+let nome = prompt('Digite seu nome:');
+let idade = prompt('Digite sua idade:');
+if (idade >= 18) {
+	ALERT('Pode tirar a habilitação!'); x
+}
+
+EXERCÍCIO 2
+1
+diaDaSemana = prompt('Qual é o dia da semana hoje?'); x<especificar varável>
+if(diaDaSemana == 'sabado' || 'domingo') { // || significa 'ou'\\
+	alert('Bom fim de semana!');
+}
+else {
+	alert('Boa semana!');
+	}
+
+2
+numero = prompt('Digite um número positivo ou negativo'); x<especificar variavel>
+if(numero > 0) {
+	alert('Esse numero é positivo');
+	}
+else {
+	alert('Esse número é negativo');
+	}
+	
+3
+if(pontuacao >= 100) { x<especificar variavel>
+	alert('Parabéns, você venceu!');
+}
+else {
+	alert('Tente novamente para ganhar');
+}
+
+4
+let saldoDaConta = X
+alert(`Seu saldo é R$${saldoDaConta}`); x<faltou símbolo da currency>
+
+5
+let nome = prompt('Digite seu nome:');
+alert(`Olá ${nome}, seja bem vindo ao nosso site`);
+
+EXERCÍCIO 3
+1
+let contador = 1;
+while (contador <= 10) {
+	console.log(contador);
+	contador++ // CONTADOR = CONTADOR + 1;
+}
+
+2
+let contador = 10;
+while (contador >= 0 {
+	console.log(contador);
+	contador-- // contador = contador - 1;
+}
+
+3
+let numeroMaximo = prompt('Digite um número:');
+while (numeroMaximo >=0 {
+	console.log(numeroMaximo);
+	numeroMaximo = numeroMaximo - 1; //numeroMaximo-- x< não usa o prompt>
+}
+
+4
+let numeroMaximo = prompt('Digite um número:');
+let contador = 0; //começa desse número pra cima
+while (contador <= numeroMaximo) {
+	console.log(contador);
+	contador++ // contador = contador + 1
+
+EXERCÍCIOS
+
+console.log('Olá, seja bem-vind ao site');
+
+let nome = Isabela
+console.log(`Olá ${nome}, seja bem-vinda ao site`);
+alert(`Olá, ${nome}`);
+
+let linguagemdeProgramacao = prompt = ('Qual a linguagem de programaçãoq ue você mais gosta?');
+console.log(linguagemdeProgramacao);
+
+let valor1 = 16;
+let valor2 = 31;
+let resultado = valor1 +=  valor2;
+console.log(`A soma de ${valor1} e ${valorr2} é igual a ${resultado}.`);
+
+ou
+
+let valor1 = 16;
+let valor2 = 31;
+let resultado = valor1 +=  valor2;
+console.log(`A soma é igual a ${resultado}.`); < += adiciona o valor da direita AO valor da vriável a esquerda e retorna o novo valor, que seria a soma das duas variáveis.>
+
+let idadedoUsuario = prompt('Qual é a sua idade?');
+if (idadedoUsuario < 18) {
+	console.log('Você é menor de idade');
+	} else {
+	console.log('Você é maior de idade');
+	}
+ou
+let idadedoUsuario = prompt('Qual é a sua idade?');
+let maiorouMenor = idadedoUsuario < 18 ? 'menor' : 'maior';
+console.log(`Você é ${maiorouMenor} de idade`);
+
+let numero = prompt('Escolha um número positivo ou negativo:');
+if (numero == 0) {
+	console.log('Esse número é zero');
+	} else {
+		if (numero < 0) {
+			console.log('Esse número é negativo');
+			} else {
+				console.log('Esse número é positivo');
+				}
+				
+ou
+
+let numero = prompt('Escolha um número positivo ou negativo');
+let tipodeNumero = numero == 0 ? 'zero' : numero < 0 ? 'negativo' : 'positivo';
+console.log(`Esse número é ${tipodeNumero}`);
+
+
+let contagem = 1;
+while (contagem <=10) {
+	console.log(contagem);
+	contagem = contagem + 1; // contagem++
+	
+let nota = 5
+if (nota < 7) {
+	console.log('Reprovado');
+	} else {
+		console.log('Aprovado');
+		}
+		
+ou
+let nota = 5;
+let statusdoAluno = nota >= 7 ? 'Aprovado' : 'Reprovado';
+console.log(${statusdoAluno});
+
+Math.random();
+console.log(Math.random());
+
+let numero = parseInt(Math.random() * 10 + 1); < tem que vir numa variável pra apresentar no console>
+console.log(numero); 
+
+	
